@@ -28,3 +28,4 @@ t/03.code.t
 t/perlcritic.t
 t/pod.t
 t/spelling.t
+.shipit

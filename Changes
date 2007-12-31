@@ -1,5 +1,9 @@
 Revision history for Acme-Kensiro
 
+0.04
+
+    - this module requires 5.8
+
 0.0.3 Thu May  3 09:26:25 JST 2007
        - fixed test.
 
