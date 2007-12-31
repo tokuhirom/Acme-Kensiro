@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use base qw/Exporter/;
 our @EXPORT = 'kensiro';
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub kensiro {
     my $src = shift;
