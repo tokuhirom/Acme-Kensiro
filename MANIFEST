@@ -1,6 +1,8 @@
+.shipit
 Changes
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/AutoInstall.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
@@ -27,5 +29,4 @@ t/01.base.t
 t/03.code.t
 t/perlcritic.t
 t/pod.t
-t/spelling.t
-.shipit
+xt/spelling.t

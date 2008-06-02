@@ -8,6 +8,7 @@ all_from        'lib/Acme/Kensiro.pm';
 
 requires 'Exporter' => 0;
 
+recursive_author_tests('xt');
 use_test_base;
 auto_install;
 WriteAll;
