@@ -1,5 +1,9 @@
 Revision history for Acme-Kensiro
 
+0.05
+
+    - t/spelling.t only run by module author.
+
 0.04
 
     - this module requires 5.8
