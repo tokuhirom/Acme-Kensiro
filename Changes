@@ -1,5 +1,10 @@
 Revision history for Acme-Kensiro
 
+0.06
+
+    - fixed tests...
+      maybe this is last release.
+
 0.05
 
     - t/spelling.t only run by module author.
