@@ -1,23 +1,16 @@
 use strict;
 use warnings;
-use Test::Base;
+use Test::More;
 use Acme::Kensiro;
 
-__END__
+my @tests = (
+    0, 'た',
+    1, 'あ',
+    2, 'あた',
+    16, 'あたたたた',
+);
+while (my ($input, $expected) = splice @tests, 0, 2) {
+    is(kensiro($input), $expected, "IN: $input");
+}
 
-=== simple
---- input kensiro: 0
---- expected: た
-
-=== simple
---- input kensiro: 1
---- expected: あ
-
-=== simple
---- input kensiro: 2
---- expected: あた
-
-=== simple
---- input kensiro: 16
---- expected: あたたたた
-
+done_testing;
