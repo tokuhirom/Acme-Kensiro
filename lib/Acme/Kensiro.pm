@@ -3,7 +3,9 @@ use strict;
 use warnings;
 use Exporter 'import';
 our @EXPORT = 'kensiro';
-our $VERSION = '0.06';
+our $VERSION = '0.07';
+
+use 5.008001;
 
 sub kensiro {
     my $src = shift;
