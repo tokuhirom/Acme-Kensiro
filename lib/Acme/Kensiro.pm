@@ -21,6 +21,8 @@ sub kensiro {
 1;
 __END__
 
+=encoding utf-8
+
 =head1 NAME
 
 Acme::Kensiro - kensiro-sinsu
@@ -44,7 +46,7 @@ L<http://www.asahi-net.or.jp/~rc4t-ishr/kensiro.html>
 
 =head1 AUTHOR
 
-Tokuhiro Matsuno  C<< <tokuhiro __at__ mobilefactory.jp> >>
+Tokuhiro Matsuno  C<< <tokuhirom __@__ gmail.com> >>
 
 =head1 LICENCE AND COPYRIGHT
 

@@ -26,3 +26,12 @@ nytprof
 perltidy.ERR$
 ^README.pod$
 ^tags$
+^[^/]+\.gz$
+^README.mkdn$
+^MYMETA\.
+\b_build
+^MANIFEST\.SKIP
+\B\.gitignore
+\.bak$
+^inc/
+^Acme-Kensiro-
