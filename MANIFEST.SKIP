@@ -38,3 +38,4 @@ perltidy.ERR$
 ^\.carton/
 ^carton\.lock$
 ^local/
+^\.ukigumo\.yml$

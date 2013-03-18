@@ -1,5 +1,9 @@
 Revision history for Acme-Kensiro
 
+0.08
+
+    - use cpanfile
+
 0.07
 
     - modernize packaging
