@@ -1,21 +1,14 @@
 use strict;
 use warnings FATAL => 'all';
-use Module::Build;
+use Module::Build::Pluggable qw(
+    GithubMeta
+    CPANfile
+);
 
-my $build = Module::Build->new(
+my $build = Module::Build::Pluggable->new(
     license              => 'perl',
     recursive_test_files => 1,
     dynamic_config       => 0,
-    build_requires       => {
-        'Test::More' => '0.98'
-    },
-    configure_requires => {
-        'Module::Build' => '0.38'
-    },
-    requires => {
-        'Exporter' => '5.62',
-        'perl'     => '5.008001'
-    },
     no_index => {
         'directory' => [ 'inc', 't', 'xt' ]
     },

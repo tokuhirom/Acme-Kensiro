@@ -1,5 +1,6 @@
 Build.PL
 Changes
+cpanfile
 lib/Acme/Kensiro.pm
 LICENSE
 MANIFEST			This list of files

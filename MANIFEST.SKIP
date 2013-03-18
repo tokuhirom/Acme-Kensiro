@@ -35,3 +35,6 @@ perltidy.ERR$
 \.bak$
 ^inc/
 ^Acme-Kensiro-
+^\.carton/
+^carton\.lock$
+^local/
