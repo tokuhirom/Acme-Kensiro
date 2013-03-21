@@ -16,3 +16,4 @@ MYMETA.*
 README
 ^inc/
 Acme-Kensiro-*/
+.build/
