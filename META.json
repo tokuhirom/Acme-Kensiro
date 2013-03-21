@@ -1,0 +1,42 @@
+{
+   "abstract" : "kensiro-sinsu",
+   "author" : [
+      "Tokuhiro Matsuno  C<< <tokuhirom __@__ gmail.com> >>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/0.0.36, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Acme-Kensiro",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Exporter" : "5.62"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "homepage" : "git://github.com/tokuhirom/Acme-Kensiro/tree",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/Acme-Kensiro.git"
+      }
+   },
+   "version" : "0.08"
+}

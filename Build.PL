@@ -1,2 +1,1 @@
-use Module::Build::Tiny;
-Build_PL();
+use Module::Build::Tiny; Build_PL()
