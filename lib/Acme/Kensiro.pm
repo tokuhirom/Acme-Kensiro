@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Exporter 'import';
 our @EXPORT = 'kensiro';
-our $VERSION = '0.09';
+our $VERSION = '0.10';
 
 use 5.008001;
 
