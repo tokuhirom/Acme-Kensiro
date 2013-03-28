@@ -17,3 +17,9 @@ README
 ^inc/
 Acme-Kensiro-*/
 .build/
+/Acme-Kensiro-*
+/.build
+/_build_params
+/Build
+!Build/
+!META.json
