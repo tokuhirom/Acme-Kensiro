@@ -4,7 +4,7 @@ use warnings;
 use Exporter 'import';
 our @EXPORT = 'kensiro';
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 use 5.008001;
 
