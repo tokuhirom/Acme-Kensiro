@@ -1,4 +1,4 @@
-Revision history for Acme-Kensiro
+Revision history for Perl module Acme::Kensiro
 
 {{$NEXT}}
 
@@ -18,33 +18,36 @@ Revision history for Acme-Kensiro
 
     - use minil
 
-0.08
+0.08 2013-03-17
 
     - use cpanfile
 
-0.07
+0.07 2011-10-15
 
     - modernize packaging
 
-0.06
+0.06 2008-06-12
 
     - fixed tests...
       maybe this is last release.
 
-0.05
+0.05 2008-06-01
 
     - t/spelling.t only run by module author.
 
-0.04
+0.04 2007-12-30
 
     - this module requires 5.8
 
-0.0.3 Thu May  3 09:26:25 JST 2007
-       - fixed test.
+0.0.3 2007-05-03 09:26:25 JST
 
-0.0.2  Fri Feb 23 23:39:12 JST 2007
-       - oops.. test fixed.
+    - fixed test.
 
-0.0.1  Sun Feb 18 13:46:32 2007
-       - Initial release.
+0.0.2 2007-02-23 23:39:12 JST
+
+    - oops.. test fixed.
+
+0.0.1 2007-02-18
+
+    - Initial release.
 
