@@ -11,7 +11,7 @@ use 5.008001;
 sub kensiro {
     my $src = shift;
 
-    my $dst = unpack("B8",  pack("C", $src));
+    my $dst = reverse(unpack("b32",  pack("L", $src)));
     $dst =~ s/^0*(.+)/$1/;
     $dst =~ s/0/た/g;
     $dst =~ s/1/あ/g;
