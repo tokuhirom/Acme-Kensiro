@@ -28,4 +28,4 @@ Tokuhiro Matsuno  `<tokuhirom __@__ gmail.com>`
 Copyright (c) 2007, Tokuhiro Matsuno `<tokuhiro __at__ mobilefactory.jp>`. All rights reserved.
 
 This module is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself. See [perlartistic](http://search.cpan.org/perldoc?perlartistic).
+modify it under the same terms as Perl itself. See [perlartistic](https://metacpan.org/pod/perlartistic).
