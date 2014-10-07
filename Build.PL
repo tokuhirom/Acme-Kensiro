@@ -52,8 +52,14 @@ my $builder = Module::Build->subclass(
 $builder->create_build_script();
 
 use File::Copy;
+
 print "cp META.json MYMETA.json\n";
 copy("META.json","MYMETA.json") or die "Copy failed(META.json): $!";
-print "cp META.yml MYMETA.yml\n";
-copy("META.yml","MYMETA.yml") or die "Copy failed(META.yml): $!";
+
+if (-f 'META.yml') {
+    print "cp META.yml MYMETA.yml\n";
+    copy("META.yml","MYMETA.yml") or die "Copy failed(META.yml): $!";
+} else {
+    print "There is no META.yml... You may install this module from the repository...\n";
+}
 
