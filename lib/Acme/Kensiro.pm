@@ -51,6 +51,10 @@ L<http://www.asahi-net.or.jp/~rc4t-ishr/kensiro.html>
 
 Tokuhiro Matsuno  C<< <tokuhirom __@__ gmail.com> >>
 
+=head1 THANKS TO
+
+dokechin
+
 =head1 LICENCE AND COPYRIGHT
 
 Copyright (c) 2007, Tokuhiro Matsuno C<< <tokuhiro __at__ mobilefactory.jp> >>. All rights reserved.
